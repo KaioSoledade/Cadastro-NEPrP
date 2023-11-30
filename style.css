@@ -14,7 +14,7 @@ body{
 
 
 body .Cadastro{
-    width: 70%;
+    width: 1200px;
     height: 100%;
     display: flex;
     align-items: center;
@@ -23,8 +23,8 @@ body .Cadastro{
 
 }
 
-body .imagem{
-    width: 400px;
+body main .imagem{
+    width: 700px;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -44,7 +44,7 @@ header img{
     height: 100px;
 }
 header .cabecalho{
-    width: 500px;
+    width: 400px;
     height: 50px;
     display: flex;
     justify-content: space-between;
@@ -90,6 +90,8 @@ main{
 main img{
     width: 100%;
     height: 100%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
 }
 main .imagem{
     width: 30%;
@@ -116,4 +118,16 @@ main .imagem{
     border: none;
     cursor: pointer;
     background-color: white;
+}
+
+
+
+
+
+span{
+    color: red;
+    font-size: 17px;
+}
+.span-none{
+    display: none;
 }
