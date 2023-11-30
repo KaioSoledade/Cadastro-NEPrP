@@ -1,0 +1,119 @@
+
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+
+}
+
+
+
+body .Cadastro{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+body .imagem{
+    width: 400px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body header{
+    width: 100%;
+    height: 100px;
+    padding: 0 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: bisque;
+}
+header img{
+    width: 100px;
+    height: 100px;
+}
+header .cabecalho{
+    width: 500px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+header .cabecalho p{
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+
+main{
+    width: 100%;
+    height: 830px;
+    display: flex;
+    justify-content: space-between;
+}
+.secao1{
+    background-color: bisque;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+.secao1 .submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20px;
+}
+.secao1 .submit button{
+    width: 200px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: rgb(165, 54, 54);
+}
+
+main img{
+    width: 100%;
+    height: 100%;
+}
+main .imagem{
+    width: 30%;
+}
+
+.forms .input{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+}
+.forms .input input{
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.forms .inputs button{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+}
